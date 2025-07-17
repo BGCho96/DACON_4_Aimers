@@ -1,0 +1,38 @@
+# Python bytecode 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 가상환경 폴더
+.venv/
+env/
+venv/
+model-playground-mac/
+
+# Jupyter 노트북 캐시
+.ipynb_checkpoints/
+
+# VSCode, PyCharm 등 IDE 설정
+.vscode/
+.idea/
+
+#wandb 관련 파일/로그
+**/wandb/
+**/.wandb/
+
+#이미지 제외
+**/images-classification/
+**/.images-classification/
+
+# Ultralytics/YOLO 관련 실행 결과
+runs/
+results/
+
+# 기타 실험 중 생기는 로그/모델
+*.log
+*.pth
+*.pt
+*.onnx
+
+# 환경 설정
+.env

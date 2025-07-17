@@ -1,0 +1,30 @@
+# config.yaml
+
+experiment:
+  name: yolo_theory_20250707
+  mode: train         # or: eval, test
+  seed: 42
+
+model:
+  name: yolo_theory_20250707
+  path: models/yolo_theory_20250707.py
+
+dataset:
+  name: titanic
+  path: datasets/titanic/train.csv
+  batch_size: 32
+  num_workers: 2
+
+train:
+  epochs: 20
+  learning_rate: 0.001
+  optimizer: adam
+  scheduler: null
+
+eval:
+  metrics: [accuracy, f1]
+
+output:
+  save_dir: results/yolo_20250707/
+  save_model: true
+  log_interval: 10
