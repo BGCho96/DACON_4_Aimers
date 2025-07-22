@@ -1,3 +1,6 @@
 [submodule "BlakeBGCho/clone/model-playground"]
 	path = BlakeBGCho/clone/model-playground
 	url = https://github.com/BGCho96/model-playground
+[submodule "BlakeBGCho/clone/--force"]
+	path = BlakeBGCho/clone/--force
+	url = https://github.com/BGCho96/model-playground
